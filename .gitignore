@@ -1,0 +1,43 @@
+# Python & Virtual Environments
+.venv/
+.venv*/
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+*$py.class
+backend/**/__pycache__/
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+backend/*.db
+smartgov_ai.db
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
